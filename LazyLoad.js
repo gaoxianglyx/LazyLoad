@@ -67,7 +67,7 @@
         },
         Load: function () {
             window.onscroll = window.onload = function () {
-                setTimeout(LazyLoad.prototype.Lazy, 300);
+                setTimeout(LazyLoad.prototype.Lazy, 500);
             }
         }
     };
